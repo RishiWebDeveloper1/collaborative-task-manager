@@ -1,0 +1,80 @@
+.member-dashboard {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #f4f6f8;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.member-dashboard h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.member-dashboard h3 {
+  margin-top: 20px;
+  color: #34495e;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.task-card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  border-left: 6px solid #3498db;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in-out;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+  border-left-color: #2ecc71;
+}
+
+.task-card h4 {
+  margin: 0 0 8px;
+  color: #2c3e50;
+}
+
+.task-card p {
+  margin: 0 0 12px;
+  color: #7f8c8d;
+}
+
+.task-card label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  color: #333;
+}
+
+.task-card select {
+  margin-top: 5px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  outline: none;
+  width: 100%;
+}
+
+.task-card select:focus {
+  border-color: #3498db;
+}
+
+.error-msg {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.success-msg {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
